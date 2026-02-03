@@ -2,7 +2,7 @@ export default function Footer() {
   return (
     <footer className="bg-black pt-[72px] pb-[72px]">
       <div className="xl:max-w-272 xl:mx-auto p-5 flex flex-col xl:flex-row xl:items-start xl:justify-between items-center justify-center">
-        <img src="./public/logo(white).svg" alt="logo" className="mb-[50px] xl:m-0 mt-[54px]" />
+        <img src="/public/logo(white).svg" alt="logo" className="mb-[50px] xl:m-0 mt-[54px]" />
 
         <ul className="flex flex-col xl:flex-row xl:items-start gap-[78px]">
           <li className="flex flex-col items-center xl:items-start justify-center xl:mb-0 mb-10">

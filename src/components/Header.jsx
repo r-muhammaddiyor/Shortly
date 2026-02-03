@@ -5,7 +5,7 @@ export default function Header() {
     <header className="p-5 bg-white flex xl:max-w-272 xl:mx-auto xl:w-full pt-12  items-center justify-between">
       {/* Logo */}
       <a href="./index.html" className="inline-block">
-        <img src="./public/logo(black).svg" alt="logo-black" />
+        <img src="/public/logo(black).svg" alt="logo-black" />
       </a>
 
       {/* Navigation for larger screens */}
@@ -44,7 +44,7 @@ export default function Header() {
       <input className="peer" type="checkbox" id="bars" hidden />
       <label htmlFor="bars" className="peer-checked:block fixed inset-0 hidden"></label>
 
-      <div className="burger-menu sm fixed top-0 left-0 w-[300px] -translate-x-full opacity-0 peer-checked:translate-x-0 peer-checked:opacity-100 transition-all duration-500 ease-in-out shadow-black h-screen bg-[rgba(58,48,84,1)] flex flex-col gap-[30px] pl-5 pr-5 pt-10 pb-10 rounded-r-xl">
+      <div className="burger-menu z-30 sm fixed top-0 left-0 w-[300px] -translate-x-full opacity-0 peer-checked:translate-x-0 peer-checked:opacity-100 transition-all duration-500 ease-in-out shadow-black h-screen bg-[rgba(58,48,84,1)] flex flex-col gap-[30px] pl-5 pr-5 pt-10 pb-10 rounded-r-xl">
         <nav className="flex flex-col gap-7.5">
           <ul className="flex flex-col gap-7.5">
             <a href="#" className="text-[20px] text-white font-bold active:border-b-red-500">
